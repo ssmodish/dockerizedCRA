@@ -1,7 +1,3 @@
-delete `node_modules` folder
-
-delete `yarn.lock`
-
 run `docker build -f Dockerfile.dev .`
 
 take note of the image id created, if you missed it
