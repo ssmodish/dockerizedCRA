@@ -14,7 +14,7 @@ deploy:
   name: "dockerizedCRA"
   environment: "Dockerizedcra-env"
   bucket_name: "elasticbeanstalk-us-east-2-057520580775"
-  bucket_path: "docker-cra"
+  bucket_path: "dockerizedCRA"
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
